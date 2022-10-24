@@ -37,7 +37,7 @@ namespace ISRPO_Cherednichenko_PR10
 
         private void Sort_Click(object sender, RoutedEventArgs e)
         {
-            listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Content", System.ComponentModel.ListSortDirection.Ascending));
+            listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Text", System.ComponentModel.ListSortDirection.Ascending));
         }
     }
 }

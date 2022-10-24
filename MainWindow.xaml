@@ -8,19 +8,49 @@
         Title="Чередниченко ПР10" Height="434.765" Width="355.529">
     <Grid>
 
-        <ListBox Margin="10,15,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="200">
-            <ListBoxItem Content="Coffie" Background="#FFF7BCA6" Foreground="#FF804C34" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
-            <ListBoxItem Content="Tea" Background="#FF8EC990" Foreground="#FF0C4B1E" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
-            <ListBoxItem Content="Orange Juice" Background="#FFFFB83C" Foreground="#FFFF4600" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
-            <ListBoxItem Content="Milk" Background="#FFEADACD" Foreground="#FFC9907C" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
-            <ListBoxItem Content="Iced Tea" Background="#FFB0F9EF" Foreground="#FF2B95EE" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
-            <ListBoxItem Content="Mango Shake" Background="#FFCB9CEC" Foreground="#FFFF6800" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
+        <ListBox Margin="10,10,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="264">
+            <ListBoxItem Background="#FFF7BCA6" Foreground="#FF804C34" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="image/coffie.jpg" Width="30" Height="30"/>
+                    <TextBlock Text="Coffie"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="#FF8EC990" Foreground="#FF0C4B1E" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="image/tea.jpg" Width="30" Height="30"/>
+                    <TextBlock Text="Tea"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="#FFFFB83C" Foreground="#FFFF4600" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="image/orange juice.jpg" Width="30" Height="30"/>
+                    <TextBlock Text="Orange Juice"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="#FFEADACD" Foreground="#FFC9907C" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="image/milk.jpg" Width="30" Height="30"/>
+                    <TextBlock Text="Milk"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="#FFB0F9EF" Foreground="#FF2B95EE" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="image/iced tea.jpg" Width="30" Height="30"/>
+                    <TextBlock Text="Iced Tea"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Background="#FFCB9CEC" Foreground="#FFFF6800" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="image/mango shake.jpg" Width="30" Height="30"/>
+                    <TextBlock Text="Mango Shake"/>
+                </StackPanel>
+            </ListBoxItem>
         </ListBox>
 
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,223,0,0" Name="textbox1" VerticalAlignment="Top" Width="212"/>
-        <Button  Margin="10,251,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
-        <Button  Margin="83,251,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click" Width="79">Delete Item</Button>
-        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" Click="Sort_Click" VerticalAlignment="Top" Margin="167,251,0,0" Width="55"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,280,0,0" Name="textbox1" VerticalAlignment="Top" Width="212"/>
+        <Button  Margin="10,308,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
+        <Button  Margin="83,308,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click" Width="79">Delete Item</Button>
+        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" Click="Sort_Click" VerticalAlignment="Top" Margin="167,308,0,0" Width="55"/>
 
     </Grid>
 </Window>
