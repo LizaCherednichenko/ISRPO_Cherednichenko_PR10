@@ -10,40 +10,57 @@
 
         <ListBox Margin="10,10,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="264">
             <ListBoxItem Background="#FFF7BCA6" Foreground="#FF804C34" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="CoffieCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="image/coffie.jpg" Width="30" Height="30"/>
                     <TextBlock Text="Coffie"/>
-                </StackPanel>
+                    </StackPanel>
+                </CheckBox>
             </ListBoxItem>
+            
             <ListBoxItem Background="#FF8EC990" Foreground="#FF0C4B1E" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
-                <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="TeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
                     <Image Source="image/tea.jpg" Width="30" Height="30"/>
                     <TextBlock Text="Tea"/>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
+            
             <ListBoxItem Background="#FFFFB83C" Foreground="#FFFF4600" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="OrangeJuiceCheckBox">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="image/orange juice.jpg" Width="30" Height="30"/>
                     <TextBlock Text="Orange Juice"/>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
+            
             <ListBoxItem Background="#FFEADACD" Foreground="#FFC9907C" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="MilkCheckBox">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="image/milk.jpg" Width="30" Height="30"/>
                     <TextBlock Text="Milk"/>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
+            
             <ListBoxItem Background="#FFB0F9EF" Foreground="#FF2B95EE" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="IcedTeaCheckBox">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="image/iced tea.jpg" Width="30" Height="30"/>
                     <TextBlock Text="Iced Tea"/>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
+            
             <ListBoxItem Background="#FFCB9CEC" Foreground="#FFFF6800" FontFamily="Vernada" FontSize="12" FontWeight="Bold">
+                <CheckBox x:Name="MangoShakeCheckBox">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="image/mango shake.jpg" Width="30" Height="30"/>
                     <TextBlock Text="Mango Shake"/>
                 </StackPanel>
+                </CheckBox>
             </ListBoxItem>
         </ListBox>
 
