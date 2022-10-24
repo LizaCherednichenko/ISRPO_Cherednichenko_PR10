@@ -24,5 +24,10 @@ namespace ISRPO_Cherednichenko_PR10
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.Add(textbox1.Text);
+        }
     }
 }

@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISRPO_Cherednichenko_PR10"
         mc:Ignorable="d"
-        Title="Чередниченко ПР10" Height="450" Width="800">
+        Title="Чередниченко ПР10" Height="453.719" Width="501.24">
     <Grid>
+
+        <ListBox Margin="10,46,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+            <ListBoxItem Content="Coffie"></ListBoxItem>
+            <ListBoxItem Content="Tea"></ListBoxItem>
+            <ListBoxItem Content="Orange Juice"></ListBoxItem>
+            <ListBoxItem Content="Milk"></ListBoxItem>
+            <ListBoxItem Content="Iced Tea"></ListBoxItem>
+            <ListBoxItem Content="Mango Shake"></ListBoxItem>
+        </ListBox>
+
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,14,0,0" Name="textbox1" VerticalAlignment="Top" Width="194"/>
+        <Button Height="23" Margin="20,14,0,0" Name="button1" VerticalAlignment="Top" Width="76" Click="button1_Click">Add Item</Button>
+        
         
     </Grid>
 </Window>
