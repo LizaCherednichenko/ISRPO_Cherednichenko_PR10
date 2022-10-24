@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISRPO_Cherednichenko_PR10"
         mc:Ignorable="d"
-        Title="Чередниченко ПР10" Height="453.719" Width="501.24">
+        Title="Чередниченко ПР10" Height="434.765" Width="355.529">
     <Grid>
 
-        <ListBox Margin="10,15,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+        <ListBox Margin="10,15,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="200">
             <ListBoxItem Content="Coffie"></ListBoxItem>
             <ListBoxItem Content="Tea"></ListBoxItem>
             <ListBoxItem Content="Orange Juice"></ListBoxItem>
@@ -17,10 +17,10 @@
             <ListBoxItem Content="Mango Shake"></ListBoxItem>
         </ListBox>
 
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,223,0,0" Name="textbox1" VerticalAlignment="Top" Width="194"/>
-        <Button Height="23" Margin="10,251,407,0" Name="button1" VerticalAlignment="Top" Width="76" Click="button1_Click">Add Item</Button>
-        <Button Height="23" Margin="91,251,326,0" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click">Delete Item</Button>
-        <Button Content="Sort" Name="Sort"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,223,0,0" Name="textbox1" VerticalAlignment="Top" Width="212"/>
+        <Button  Margin="10,251,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
+        <Button  Margin="83,251,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click" Width="79">Delete Item</Button>
+        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" Click="Sort_Click" VerticalAlignment="Top" Margin="167,251,0,0" Width="55"/>
 
     </Grid>
 </Window>

@@ -34,5 +34,10 @@ namespace ISRPO_Cherednichenko_PR10
         {
             listBox1.Items.Remove(listBox1.SelectedItem);
         }
+
+        private void Sort_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Content", System.ComponentModel.ListSortDirection.Ascending));
+        }
     }
 }
