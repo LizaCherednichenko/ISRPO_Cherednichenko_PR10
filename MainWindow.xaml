@@ -9,12 +9,12 @@
     <Grid>
 
         <ListBox Margin="10,15,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="200">
-            <ListBoxItem Content="Coffie"></ListBoxItem>
-            <ListBoxItem Content="Tea"></ListBoxItem>
-            <ListBoxItem Content="Orange Juice"></ListBoxItem>
-            <ListBoxItem Content="Milk"></ListBoxItem>
-            <ListBoxItem Content="Iced Tea"></ListBoxItem>
-            <ListBoxItem Content="Mango Shake"></ListBoxItem>
+            <ListBoxItem Content="Coffie" Background="#FFF7BCA6" Foreground="#FF804C34" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
+            <ListBoxItem Content="Tea" Background="#FF8EC990" Foreground="#FF0C4B1E" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
+            <ListBoxItem Content="Orange Juice" Background="#FFFFB83C" Foreground="#FFFF4600" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
+            <ListBoxItem Content="Milk" Background="#FFEADACD" Foreground="#FFC9907C" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
+            <ListBoxItem Content="Iced Tea" Background="#FFB0F9EF" Foreground="#FF2B95EE" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
+            <ListBoxItem Content="Mango Shake" Background="#FFCB9CEC" Foreground="#FFFF6800" FontFamily="Vernada" FontSize="12" FontWeight="Bold"></ListBoxItem>
         </ListBox>
 
         <TextBox Height="23" HorizontalAlignment="Left" Margin="10,223,0,0" Name="textbox1" VerticalAlignment="Top" Width="212"/>
