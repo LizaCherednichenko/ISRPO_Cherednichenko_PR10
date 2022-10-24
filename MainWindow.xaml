@@ -8,7 +8,7 @@
         Title="Чередниченко ПР10" Height="453.719" Width="501.24">
     <Grid>
 
-        <ListBox Margin="10,46,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+        <ListBox Margin="10,15,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
             <ListBoxItem Content="Coffie"></ListBoxItem>
             <ListBoxItem Content="Tea"></ListBoxItem>
             <ListBoxItem Content="Orange Juice"></ListBoxItem>
@@ -17,9 +17,10 @@
             <ListBoxItem Content="Mango Shake"></ListBoxItem>
         </ListBox>
 
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,14,0,0" Name="textbox1" VerticalAlignment="Top" Width="194"/>
-        <Button Height="23" Margin="20,14,0,0" Name="button1" VerticalAlignment="Top" Width="76" Click="button1_Click">Add Item</Button>
-        <Button Height="23" Margin="218,46,199,0" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click">Delete Item</Button>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="10,223,0,0" Name="textbox1" VerticalAlignment="Top" Width="194"/>
+        <Button Height="23" Margin="10,251,407,0" Name="button1" VerticalAlignment="Top" Width="76" Click="button1_Click">Add Item</Button>
+        <Button Height="23" Margin="91,251,326,0" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click">Delete Item</Button>
+        <Button Content="Sort" Name="Sort"/>
 
     </Grid>
 </Window>
