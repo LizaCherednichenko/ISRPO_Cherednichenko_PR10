@@ -5,31 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISRPO_Cherednichenko_PR10"
         mc:Ignorable="d"
-        Title="Марки мотоциклов" Height="450" Width="253.407">
+        Title="Марки мотоциклов" Height="482.058" Width="239.159">
     <Grid>
-        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="200">
-            <ListBoxItem>
-                <StackPanel Orientation="Horizontal">
-                        <Image Source="image/coffie.jpg" Width="30" Height="30"/>
-                        <TextBlock Text="Yamaha"/>
-                    </StackPanel>
-            </ListBoxItem>
-            <ListBoxItem>
-                <StackPanel Orientation="Horizontal">
-                        <Image Source="image/coffie.jpg" Width="30" Height="30"/>
-                        <TextBlock Text="Ducati"/>
-                    </StackPanel>
-            </ListBoxItem>
-            <ListBoxItem>
-                <StackPanel Orientation="Horizontal">
-                        <Image Source="image/coffie.jpg" Width="30" Height="30"/>
-                        <TextBlock Text="Suzuki"/>
-                    </StackPanel>
-            </ListBoxItem>
+        <ListBox x:Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Height="200" Margin="10,0,0,0">
+            <ListBoxItem Content="Yamaha" Selected="ListBoxItem_Selected"/>
+            <ListBoxItem Content="Ducati" Selected="ListBoxItem_Selected_1"/>
+            <ListBoxItem Content="Suzuki" Selected="ListBoxItem_Selected_2"/>
+            <ListBoxItem Content="Honda" Selected="ListBoxItem_Selected_3"/>
+            <ListBoxItem Content="BMW" Selected="ListBoxItem_Selected_4"/>
         </ListBox>
 
-        <Button  Margin="10,308,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
-        <Button  Margin="83,308,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click" Width="79">Delete Item</Button>
-        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" Click="Sort_Click" VerticalAlignment="Top" Margin="167,308,0,0" Width="55"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Name="textbox1" VerticalAlignment="Top" Width="214" Margin="8,205,0,0"/>
+
+        <Button  Margin="8,233,0,0" HorizontalAlignment="Left" Height="23" Width="68" VerticalAlignment="Top" Name="button1" Click="button1_Click">Add Item</Button>
+        <Button  Margin="81,233,0,0" HorizontalAlignment="Left" Height="23" Name="DeleteButton" VerticalAlignment="Top" Width="79" Click="DeleteButton_Click">Delete Item</Button>
+        <Button Content="Sort" Height="23" HorizontalAlignment="Left" Name="Sort" VerticalAlignment="Top" Margin="167,233,0,0" Width="55" Click="Sort_Click"/>
+
+        <Image x:Name="image1" Margin="10,278,0,23" Height="150" Width="211" HorizontalAlignment="Left"/>
+
+
     </Grid>
 </Window>
